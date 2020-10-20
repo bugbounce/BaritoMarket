@@ -30,3 +30,4 @@ jobs:
           username: ${{secrets.DOCKER_USER}}
           password: ${{secrets.DOCKER_PASSWORD}}
           repository: baritomarket
+          tag_with_ref: true
