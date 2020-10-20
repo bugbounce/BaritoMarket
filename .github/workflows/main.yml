@@ -29,5 +29,5 @@ jobs:
         with:
           username: ${{secrets.DOCKER_USER}}
           password: ${{secrets.DOCKER_PASSWORD}}
-          repository: baritomarket
+          repository: bugbounce/baritomarket
           tag_with_ref: true
